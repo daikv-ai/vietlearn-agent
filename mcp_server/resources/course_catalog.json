@@ -1,0 +1,112 @@
+{
+  "course_id": "google-vibe-coding-5-day-2026",
+  "title": "5-Day AI Agents: Intensive Vibe Coding Course With Google",
+  "language": "vi",
+  "lessons": [
+    {
+      "day": 1,
+      "title": "SDLC mới với Vibe Coding",
+      "level": "beginner",
+      "concepts": [
+        "vibe coding",
+        "agentic engineering",
+        "context engineering",
+        "factory model",
+        "harness",
+        "conductor",
+        "orchestrator"
+      ],
+      "objectives": [
+        "Phân biệt vibe coding và agentic engineering",
+        "Giải thích công thức Agent = Model + Harness",
+        "Nhận biết static context và dynamic context"
+      ],
+      "summary": "AI làm cho việc sinh code nhanh hơn, nhưng production cần spec, test, eval, guardrail và human judgment. Developer chuyển từ người trực tiếp viết code sang người thiết kế hệ thống tạo và kiểm chứng code.",
+      "estimated_minutes": 120
+    },
+    {
+      "day": 2,
+      "title": "Agent Tools và Interoperability",
+      "level": "beginner",
+      "concepts": [
+        "API",
+        "tool",
+        "MCP",
+        "A2A",
+        "A2UI",
+        "UCP",
+        "AP2"
+      ],
+      "objectives": [
+        "Phân biệt API, tool và agent",
+        "Giải thích MCP giải quyết tích hợp N nhân M",
+        "Chọn MCP hoặc A2A theo biên nhiệm vụ"
+      ],
+      "summary": "MCP chuẩn hóa kết nối giữa model và tool. A2A phù hợp khi giao trách nhiệm cho một agent cộng tác. A2UI mô tả giao diện an toàn theo dạng khai báo; UCP và AP2 phục vụ thương mại và thanh toán có kiểm soát.",
+      "estimated_minutes": 120
+    },
+    {
+      "day": 3,
+      "title": "Context Engineering và Agent Skills",
+      "level": "beginner",
+      "concepts": [
+        "agent skill",
+        "SKILL.md",
+        "progressive disclosure",
+        "procedural memory",
+        "skill evaluation",
+        "meta-skill"
+      ],
+      "objectives": [
+        "Mô tả cấu trúc thư mục Agent Skill",
+        "Giải thích ba mức progressive disclosure",
+        "Kiểm tra trigger, execution, token budget và regression"
+      ],
+      "summary": "Agent Skills đóng gói quy trình chuyên môn để tải theo nhu cầu. Metadata luôn hiện diện, SKILL.md chỉ tải khi trigger và resources chỉ tải khi cần. Skill phải được kiểm tra cả routing, output, trajectory và ảnh hưởng lên thư viện.",
+      "estimated_minutes": 120
+    },
+    {
+      "day": 4,
+      "title": "Security, Evaluation và Observability",
+      "level": "beginner",
+      "concepts": [
+        "sandbox",
+        "least privilege",
+        "policy",
+        "Vibe Diff",
+        "evaluation",
+        "trajectory",
+        "observability",
+        "prompt injection"
+      ],
+      "objectives": [
+        "Phân biệt security và evaluation",
+        "Thiết kế quyền tối thiểu và human approval",
+        "Đánh giá cả output và trajectory"
+      ],
+      "summary": "Security xác nhận agent ở trong ranh giới; evaluation xác nhận kết quả trong ranh giới đó có đáng ship. Code động cần sandbox, identity riêng, quyền tối thiểu, policy xác định, trace và human approval cho hành động rủi ro.",
+      "estimated_minutes": 120
+    },
+    {
+      "day": 5,
+      "title": "Spec-Driven Production-Grade Development",
+      "level": "beginner",
+      "concepts": [
+        "spec-driven development",
+        "BDD",
+        "Given When Then",
+        "code review",
+        "policy server",
+        "context hygiene",
+        "production"
+      ],
+      "objectives": [
+        "Viết spec hành vi bằng Given When Then",
+        "Tổ chức review theo mức rủi ro",
+        "Ghép test, eval, policy và observability thành quality gate"
+      ],
+      "summary": "Khi code có thể được tạo lại nhanh, spec trở thành source of truth. Production cần BDD scenarios, review theo rủi ro, policy server, context hygiene, CI gates và tài liệu có thể tái tạo.",
+      "estimated_minutes": 120
+    }
+  ]
+}

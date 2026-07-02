@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vietnamese Course Explainer"
+  short_description: "Explain AI agent lessons in Vietnamese"
+  default_prompt: "Use $vietnamese-course-explainer to teach one grounded course concept in accessible Vietnamese."

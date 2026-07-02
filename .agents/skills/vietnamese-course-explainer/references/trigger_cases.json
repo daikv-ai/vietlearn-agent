@@ -1,0 +1,12 @@
+{
+  "positive": [
+    "Giải thích MCP bằng tiếng Việt cho người mới.",
+    "Tạo bài học Ngày 3 có ví dụ, glossary và quiz.",
+    "Tôi chưa hiểu guardrail; hãy giảng lại đơn giản hơn."
+  ],
+  "negative": [
+    "Dịch thực đơn nhà hàng sang tiếng Việt.",
+    "Xóa các file cũ trong project.",
+    "Tìm và mua một khóa học trả phí."
+  ]
+}
